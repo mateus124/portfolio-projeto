@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vh 5vw;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    column-gap: 2.5vw;
+}
+
+.list li {
+    cursor: pointer;
+}
