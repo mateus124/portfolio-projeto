@@ -1,5 +1,5 @@
 import image4 from '../assets/image4.png'
-import icon1 from '../assets/logos-tech/instagramLogo.png'
+import icon1 from '../assets/logos-tech/InstagramLogo.png'
 import icon2 from '../assets/logos-tech/LinkedinLogo.png'
 import icon3 from '../assets/logos-tech/ThreadsLogo.png'
 import icon4 from '../assets/logos-tech/WhatsappLogo.png'
