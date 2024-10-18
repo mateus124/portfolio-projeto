@@ -4,6 +4,7 @@ import Present from './components/Present'
 import Slide from './components/Slide'
 import About from './components/About'
 import Projects from './components/Projects'
+import Skills from './components/Skills'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
      <Slide></Slide>
      <About></About>
      <Projects></Projects>
+     <Skills></Skills>
     </>
   )
 }

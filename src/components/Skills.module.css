@@ -1,0 +1,23 @@
+.sectionSkills {
+    padding: 0px 5vw;
+    margin-top: 15vh;
+}
+
+.title {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.sectionSkills h2 {
+    font-size: 2rem;
+    margin-bottom: 5vh;
+}
+
+.sectionSkills ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+}
