@@ -1,0 +1,47 @@
+.container {
+    background-color: #F6F6F6;
+    display: flex;
+    padding: 5vw;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.container h3 {
+    font-size: 1.8rem;
+}
+
+.container p {
+    max-width: 90%;
+    color: #656565;
+    margin-bottom: 20px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    column-gap: 10px;
+    margin: 20px 0px;
+}
+
+.list li {
+    background-color: #D2D1D0;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.container a {
+    text-decoration: none;
+    color: #212121;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right img {
+    width: 100%;
+}

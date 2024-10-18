@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Present from './components/Present'
 import Slide from './components/Slide'
 import About from './components/About'
+import Projects from './components/Projects'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
      <Present></Present>
      <Slide></Slide>
      <About></About>
+     <Projects></Projects>
     </>
   )
 }

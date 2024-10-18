@@ -8,7 +8,7 @@ import styles from './Slide.module.css'
 
 function Slide() {
     return (
-        <section className={styles.slideSection}>
+        <section className={styles.sectionSlide}>
             <ul className={styles.list}>
                 <li>
                     <img src={icon1} alt="icone-tech" />
