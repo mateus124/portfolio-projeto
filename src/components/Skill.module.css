@@ -1,8 +1,19 @@
 .container {
-    background-color: #F6F6F6;
     padding: 1vw;
     border-radius: 10px;
     max-width: 350px;
+}
+
+.dark {
+    background-color: #222326;
+}
+
+.dark img {
+    filter: invert(100%);
+}
+
+.light {
+    background-color: #F6F6F6;
 }
 
 .image {

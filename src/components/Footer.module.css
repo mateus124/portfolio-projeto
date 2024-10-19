@@ -16,3 +16,7 @@
     column-gap: 20px;
     margin: 20px 0px;
 }
+
+.dark > .right > img {
+    filter: invert(100%);
+}

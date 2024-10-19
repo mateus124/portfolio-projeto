@@ -2,7 +2,7 @@ import styles from './Project.module.css'
 
 function Project({ title, tech1, tech2, tech3, desc, link, image }) {
     return (
-        <div className={styles.container}>
+        <div className={`${styles.container} ${styles[localStorage.getItem('theme')]}`}>
             <div>
                 <h3>{title}</h3>
                 <ul className={styles.list}>

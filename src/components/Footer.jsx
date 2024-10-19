@@ -8,7 +8,7 @@ import styles from './Footer.module.css'
 
 function Footer() {
     return (
-        <footer className={styles.footer}>
+        <footer className={`${styles.footer} ${styles[localStorage.getItem('theme')]}`}>
             <p>Mateus Alves</p>
             <ul>
                 <li><img src={icon1} alt="instagram" /></li>
@@ -17,7 +17,7 @@ function Footer() {
                 <li><img src={icon4} alt="whatsapp" /></li>
                 <li><img src={icon5} alt="x" /></li>
             </ul>
-            <div>
+            <div className={styles.right}>
                 <img src={logo} alt="logo" />
             </div>
         </footer>

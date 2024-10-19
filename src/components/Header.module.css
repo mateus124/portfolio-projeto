@@ -5,6 +5,10 @@
     padding: 3vh 5vw;
 }
 
+.dark img {
+    filter: invert(100%);
+}
+
 .logo {
     display: flex;
     align-items: center;

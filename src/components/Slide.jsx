@@ -3,12 +3,11 @@ import icon2 from '../assets/logos-tech/css.png'
 import icon3 from '../assets/logos-tech/html.png'
 import icon4 from '../assets/logos-tech/js.png'
 import icon5 from '../assets/logos-tech/react.png'
-import icon6 from '../assets/logos-tech/typescript.png'
 import styles from './Slide.module.css'
 
 function Slide() {
     return (
-        <section className={styles.sectionSlide}>
+        <section className={`${styles.sectionSlide} ${styles[localStorage.getItem('theme')]}`}>
             <ul className={styles.list}>
                 <li>
                     <img src={icon1} alt="icone-tech" />
@@ -26,7 +25,7 @@ function Slide() {
                     <img src={icon5} alt="icone-tech" />
                 </li>
                 <li>
-                    <img src={icon6} alt="icone-tech" />
+                    <img src={icon1} alt="icone-tech" />
                 </li>
             </ul>
         </section>

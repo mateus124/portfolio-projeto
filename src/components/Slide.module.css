@@ -1,7 +1,14 @@
 .sectionSlide {
-    background-color: #F6F6F6;
     margin-top: -5px;
     padding: 5px 10px;
+}
+
+.light {
+    background-color: #F6F6F6;
+}
+
+.dark {
+    background-color: #232428;
 }
 
 .list {
