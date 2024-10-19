@@ -5,6 +5,8 @@ import Slide from './components/Slide'
 import About from './components/About'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -16,6 +18,8 @@ function App() {
      <About></About>
      <Projects></Projects>
      <Skills></Skills>
+     <Contact></Contact>
+     <Footer></Footer>
     </>
   )
 }

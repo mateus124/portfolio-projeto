@@ -1,0 +1,40 @@
+.sectionContact {
+    padding: 0px 5vw;
+    margin-top: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right {
+    max-width: 50%;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.right h2 {
+    font-size: 2rem;
+    margin: 20px 0px;
+}
+
+.desc {
+    font-size: 1.1rem;
+    max-width: 70%;
+    margin-bottom: 40px;
+}
+
+.right a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    background-color: #512DA8;
+    color: #fff;
+    padding: 10px 15px;
+    transition: .3s;
+}
+
+.right a:hover {
+    background-color: #764FD2;
+}
