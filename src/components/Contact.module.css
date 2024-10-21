@@ -38,3 +38,10 @@
 .right a:hover {
     background-color: #764FD2;
 }
+
+@media screen and (max-width: 1000px) {
+    .sectionContact {
+        flex-direction: column;
+        align-items: center;
+    }
+}

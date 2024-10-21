@@ -26,3 +26,14 @@
 .list li {
     cursor: pointer;
 }
+
+@media screen and (max-width: 1000px) {
+    .sectionAbout {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+        width: 100%;
+    }
+}
